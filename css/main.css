@@ -1,0 +1,118 @@
+html,body {
+  font-family: "Roboto Mono", sans-serif;
+  background:url('https://s8.postimg.org/zf1x5m5f9/26b8403b19be85db75bb97484f6870b5.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  font-weight: bold;
+}
+
+#calculator {
+  height: 475px;
+  width: 300px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 11px 21px 1px rgba(0, 0, 0, 0.6), -1px -1px 21px 1px rgba(0, 0, 0, 0.6);
+  border-radius: 7px;
+  background: rgba(240, 232, 216, .8);
+}
+
+.screen {
+  text-align: right;
+  line-height: 50px;
+  height: 70px;
+  width: 280px;
+  box-shadow: inset 0px 0px 5px .5px rgba(0, 0, 0, 0.6);
+  background: rgba(240, 232, 216, .2);
+  border-radius: 7px;
+  margin: 10px;
+}
+
+#label {
+  font-family: "Roboto Condensed", sans-serif;
+  color: rgb(51, 103, 214);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: .8rem;
+  width: 150px;
+  height: 47px;
+  margin-top: 15px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.65);
+  line-height: 1.3;
+  padding-top: 4px;
+  border-radius: 7px;
+}
+#fcc{
+  font-size: 1.1rem;
+  text-transform: none;
+    color: rgb(0, 100, 0);
+    letter-spacing: 1px;
+}
+
+.row {
+  padding: 2px;
+  display: inline-flex;
+}
+
+.screenRows {
+  line-height: 35px;
+  height: 35px;
+  width:97%;
+}
+
+#input{
+  padding-top: 3px;
+  font-size: 200%;
+}
+
+#history{
+  font-weight: lighter;
+  font-size: 90%;
+  color: #274124;
+}
+
+.key {
+  text-shadow: 0 1px 0 rgba(255,255,255,.7);
+  text-align: center;
+  line-height: 50px;
+  height: 50px;
+  width: 50px;
+  box-shadow: 3px 3px 3px -1px rgba(0, 0, 0, 0.6), 5px 3px 3px -1px rgba(0, 0, 0, 0.6), inset -1px -1px 11px 1px rgba(33, 33, 33, 0.7), inset 1px 1px 11px 1px rgba(160, 173, 215, 0.7);
+  margin: 11px;
+  border-radius: 50%;
+  font-size: 188%;
+  color: #02135B;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.electro{
+  font-family: "Electrolize", sans-serif;
+}
+
+.operators{
+  background: rgba(0, 0, 0, .3);
+  border-radius: 15px;
+  text-shadow: 0 1px 0 rgba(255,255,255,.3);
+}
+
+.square{
+  border-radius: 15px;
+}
+
+.bigKey{
+  width: 120px;
+  border-radius: 7px;
+  background: rgba(111, 0, 0, .3);
+  text-shadow: 0 1px 0 rgba(255,255,255,.4);
+}
+
+.key:hover{
+  background: rgba(255, 255, 255, .4);
+}
+
+.key:active{
+   box-shadow: 3px 1px 3px -1px rgba(0, 0, 0, 0.6), 2px 3px 3px -1px rgba(0, 0, 0, 0.6), inset -1px -1px 11px 1px rgba(33, 33, 33, 0.7), inset 1px 1px 11px 1px rgba(160, 173, 215, 0.7);
+  transform: translate(2px, 3px);
+}
